@@ -34,7 +34,7 @@ echo " 15) Ngrok"
 echo " 16) Metasploit
 echo " 17 RouterSploit
 echo " 18) Hydra
-echo " 19) Keluar lo anjing >:( "
+echo " 19) Keluar lo anjing >:v "
 read eue
 
 if [ $eue = 1 ] || [ $eue = 01 ]
