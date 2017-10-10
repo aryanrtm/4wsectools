@@ -31,10 +31,10 @@ echo " 12) Weeman"
 echo " 13) WFDroid"
 echo " 14) FBBrute"
 echo " 15) Ngrok"
-echo " 16) Metasploit
-echo " 17) RouterSploit
-echo " 18) Hydra
-echo " 19) Keluar lo anjing :v "
+echo " 16) Torshammer "
+echo " 17) RouterSploit "
+echo " 18) Hydra "
+echo " 19) Keluar bego :3 "
 read eue
 
 if [ $eue = 1 ] || [ $eue = 01 ]
@@ -286,7 +286,7 @@ fi
 
 if [ $eue = 19 ] || [ $eue = 19  ]
 then
-echo " Keluar >:( "
+echo " Keluar :v "
 sleep 1
 echo " 1..."
 sleep 1
