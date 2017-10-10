@@ -3,7 +3,7 @@
 Cara install nya :
 
   $ apt update && apt upgrade
-  $ apt install wget
+  $ apt install git
   $ git clone https://github.com/aryanrtm/4wsectools
   $ cd 4wsectools
   $ chmod 777 tools
