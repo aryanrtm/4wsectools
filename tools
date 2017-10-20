@@ -47,7 +47,6 @@ echo -e $yellow" 16) Torshammer "
 echo -e $yellow" 17) RouterSploit "
 echo -e $yellow" 18) Hydra "
 echo -e $red" 19) Keluar bego :3 "
-echo -e $white" -> "
 read -p "[4WSec@Tools]>" eue;
 
 if [ $eue = 1 ] || [ $eue = 01 ]
