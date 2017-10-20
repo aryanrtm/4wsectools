@@ -47,7 +47,6 @@ echo -e $yellow" 16) Torshammer "
 echo -e $yellow" 17) RouterSploit "
 echo -e $yellow" 18) Hydra "
 echo -e $red" 19) Keluar bego :3 "
-export PS1="->"
 read eue
 
 if [ $eue = 1 ] || [ $eue = 01 ]
@@ -311,3 +310,4 @@ echo " Bye :* "
 sleep 1
 exit
 fi
+export PS1="->"
