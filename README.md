@@ -1,6 +1,6 @@
 # 4wsectools
 
-Cara install nya:
+Cara install nya: <br>
 $ apt update && apt upgrade
 $ apt install git
 $ git clone https://github.com/aryanrtm/4wsectools
