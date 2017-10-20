@@ -48,7 +48,7 @@ echo -e $yellow" 17) RouterSploit "
 echo -e $yellow" 18) Hydra "
 echo -e $red" 19) Keluar bego :3 "
 echo -e $white" -> "
-read eue
+read -p "[4WSec@Tools]>" eue;
 
 if [ $eue = 1 ] || [ $eue = 01 ]
 then
@@ -310,9 +310,4 @@ sleep 1
 echo " Bye :* "
 sleep 1
 exit
-fi
-
-if [ $eue = -> ]
-then
-PS1="->"
 fi
