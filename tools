@@ -8,36 +8,36 @@
 clear
 
 # Isi oc :*
-echo "    __ ___       _______              ______            __ "
-echo "   / // / |     / / ___/___  _____   /_  __/___  ____  / /____ "
-echo "  / // /| | /| / /\__ \/ _ \/ ___/    / / / __ \/ __ \/ / ___/ "
-echo " /__  __/ |/ |/ /___/ /  __/ /__     / / / /_/ / /_/ / (__  ) "
-echo "   /_/  |__/|__//____/\___/\___/    /_/  \____/\____/_/____/ "
+echo -e $white"    __ ___       _______              ______            __ "
+echo -e $red"     / // / |     / / ___/___  _____   /_  __/___  ____  / /____ "
+echo -e $blue"   / // /| | /| / /\__ \/ _ \/ ___/    / / / __ \/ __ \/ / ___/ "
+echo -e $white" /__  __/ |/ |/ /___/ /  __/ /__     / / / /_/ / /_/ / (__  ) "
+echo -e $red"     /_/  |__/|__//____/\___/\___/    /_/  \____/\____/_/____/ "
 echo ""
-echo " Toolkit Untuk Menginstall Tools "
-echo " Follow me on github : @aryanrtm "
-echo " My Site             : https://4wsec.viagra100mg.gen.tr "
-echo " Codename            : 4WSec "
+echo -e $blue" Toolkit Untuk Menginstall Tools "
+echo -e $white" Follow me on github : @aryanrtm "
+echo -e $red" My Site             : https://4wsec.viagra100mg.gen.tr "
+echo -e $blue" Codename            : 4WSec "
 echo ""
-echo " 01) Red Hawk"
-echo " 02) D-Tech"
-echo " 03) Hunner"
-echo " 04) WPScan"
-echo " 05) Lazy SQLmap"
-echo " 06) Webdav"
-echo " 07) Metasploit"
-echo " 08) Kali Nethunter"
-echo " 09) Ubuntu"
-echo " 10) Youtube Dl"
-echo " 11) viSQL "
-echo " 12) Weeman"
-echo " 13) WFDroid"
-echo " 14) FBBrute"
-echo " 15) Ngrok"
-echo " 16) Torshammer "
-echo " 17) RouterSploit "
-echo " 18) Hydra "
-echo " 19) Keluar bego :3 "
+echo -e $yellow" 01) Red Hawk"
+echo -e $yellow" 02) D-Tech"
+echo -e $yellow" 03) Hunner"
+echo -e $yellow" 04) WPScan"
+echo -e $yellow" 05) Lazy SQLmap"
+echo -e $yellow" 06) Webdav"
+echo -e $yellow" 07) Metasploit"
+echo -e $yellow" 08) Kali Nethunter"
+echo -e $yellow" 09) Ubuntu"
+echo -e $yellow" 10) Youtube Dl"
+echo -e $yellow" 11) viSQL "
+echo -e $yellow" 12) Weeman"
+echo -e $yellow" 13) WFDroid"
+echo -e $yellow" 14) FBBrute"
+echo -e $yellow" 15) Ngrok"
+echo -e $yellow" 16) Torshammer "
+echo -e $yellow" 17) RouterSploit "
+echo -e $yellow" 18) Hydra "
+echo -e $red" 19) Keluar bego :3 "
 read eue
 
 if [ $eue = 1 ] || [ $eue = 01 ]
@@ -300,4 +300,10 @@ sleep 1
 echo " Bye :* "
 sleep 1
 exit
+fi
+
+if [ "$color_prompt" = yes ]; then
+    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+else
+    PS1='${debian_chroot:+($debian_chroot)}\[\e[0;36m\]╭────[ \[\e[0;32m\]\u\[\e[1;31m\]@\[\e[0;32m\]\h\[\e[1;37m\]\w\[\e[0;32m\]#]\[\e[1;35m\][${cwd} \t \d ]\[\033[0m\] ${fill}\n\[\033[0m\]\[\e[0;36m\]╰────➲ '
 fi
