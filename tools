@@ -310,9 +310,3 @@ echo " Bye :* "
 sleep 1
 exit
 fi
-
-if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
-else
-    PS1='${debian_chroot:+($debian_chroot)}\[\e[0;36m\]╭────[ \[\e[0;32m\]\u\[\e[1;31m\]@\[\e[0;32m\]\h\[\e[1;37m\]\w\[\e[0;32m\]#]\[\e[1;35m\][${cwd} \t \d ]\[\033[0m\] ${fill}\n\[\033[0m\]\[\e[0;36m\]╰────➲ '
-fi
