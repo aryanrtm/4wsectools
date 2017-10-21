@@ -1,12 +1,12 @@
 #!/data/data/com.termux/files/usr/bin/bash
 # Auto Install Tools <3
 # Coded By 4WSec
-# 4wsec@cyberservices.com
-
+# 4WSec@cyberservices.com
+#666
 # Bersihkan Layar
 clear
 
-#This colour 
+#This colour
 blue='\e[0;34'
 green='\e[0;34m'
 okegreen='\033[92m'
@@ -26,7 +26,7 @@ echo -e $blue"   Toolkit Untuk Menginstall Tools "
 echo -e $green" Follow me on github : @aryanrtm "
 echo -e $red" My Site             : https://4wsec.viagra100mg.gen.tr "
 echo -e $blue"   Codename            : 4WSec "
-echo ""
+echo -e $blue" V3rluchie Tools Recoded By 4WSec "
 echo -e $yellow" 01) Red Hawk"
 echo -e $yellow" 02) D-Tech"
 echo -e $yellow" 03) Hunner"
@@ -46,9 +46,9 @@ echo -e $yellow" 16) RouterSploit "
 echo -e $yellow" 17) Hydra "
 echo -e $red" 18) Keluar bego :3 "
 echo ""
-read -p "[4WSec@Tools]> " eue;
+read -p "[4WSec@Tools]> " act;
 
-if [ $eue = 1 ] || [ $eue = 01 ]
+if [ $act = 1 ] || [ $act = 01 ]
 then
 clear
 echo " Installing Red Hawk "
@@ -60,7 +60,7 @@ git clone https://github.com/Tuhinshubhra/RED_HAWK
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 2 ] || [ $eue = 02 ]
+if [ $act = 2 ] || [ $act = 02 ]
 then
 clear
 echo " Installing D-Tect "
@@ -72,7 +72,7 @@ git clone https://github.com/shawarkhanethicalhacker/D-TECT
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 3 ] || [ $eue = 03 ]
+if [ $act = 3 ] || [ $act = 03 ]
 then
 clear
 echo " Installing Hunner "
@@ -84,7 +84,7 @@ git clone https://github.com/b3-v3r/Hunner
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 4 ] || [ $eue = 04 ]
+if [ $act = 4 ] || [ $act = 04 ]
 then
 clear
 echo " Installing Wpscan "
@@ -103,7 +103,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 5 ] || [ $eue = 05 ]
+if [ $act = 5 ] || [ $act = 05 ]
 then
 clear
 echo " Installing Webdav "
@@ -121,7 +121,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 06 ] || [ $eue = 6 ]
+if [ $act = 06 ] || [ $act = 6 ]
 then
 clear
 echo " Installing Metasploit "
@@ -135,7 +135,7 @@ sh install.sh
 echo " T E R I N S T A L L "
 fi
 
-if [ $eue = 07 ] || [ $eue = 7 ]
+if [ $act = 07 ] || [ $act = 7 ]
 then
 clear
 apt update && apt upgrade
@@ -147,7 +147,7 @@ sh kalinethunter
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 08 ] || [ $eue = 8 ]
+if [ $act = 08 ] || [ $act = 8 ]
 then
 clear
 apt update && apt upgrade
@@ -164,7 +164,7 @@ echo "nameserver 8.8.8.8" > /data/data/com.termux/files/home/termux-ubuntu/ubunt
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 09 ] || [ $eue = 9 ]
+if [ $act = 09 ] || [ $act = 9 ]
 then
 clear
 apt update && apt upgrade
@@ -176,7 +176,7 @@ echo " Untuk menjalankannya ketik "mpsyt" tanpa tanda petik "
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 10 ] || [ $eue = 10 ]
+if [ $act = 10 ] || [ $act = 10 ]
 then
 clear
 apt update && apt upgrade
@@ -189,7 +189,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 11 ] || [ $eue = 11 ]
+if [ $act = 11 ] || [ $act = 11 ]
 then
 clear
 apt update && apt upgrade
@@ -203,7 +203,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 12 ] || [ $eue = 12 ]
+if [ $act = 12 ] || [ $act = 12 ]
 then
 clear
 apt update && apt upgrade
@@ -217,7 +217,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 13 ] || [ $eue = 13 ]
+if [ $act = 13 ] || [ $act = 13 ]
 then
 clear
 apt install python2
@@ -232,7 +232,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 14 ] || [ $eue = 14 ]
+if [ $act = 14 ] || [ $act = 14 ]
 then
 clear
 apt install wget
@@ -244,7 +244,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 15 ] || [ $eue = 15 ]
+if [ $act = 15 ] || [ $act = 15 ]
 then
 clear
 pkg update
@@ -256,7 +256,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 16 ] || [ $eue = 16 ]
+if [ $act = 16 ] || [ $act = 16 ]
 then
 clear
 apt install git
@@ -270,7 +270,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 17 ] || [ $eue = 17 ]
+if [ $act = 17 ] || [ $act = 17 ]
 then
 clear
 apt update && apt install -y wget
@@ -280,17 +280,17 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $eue = 18 ] || [ $eue = 18  ]
+if [ $act = 18 ] || [ $act = 18  ]
 then
-echo " Keluar :v "
+echo " Aku Sange "
 sleep 1
-echo " 1..."
+echo " mmmpppssss"
 sleep 1
-echo " 2..."
+echo " aaahhh"
 sleep 1
-echo " 3..."
+echo " mmmpppsss"
 sleep 1
-echo " Bye :* "
+echo " Bye Sayang :*"
 sleep 1
 exit
 fi
