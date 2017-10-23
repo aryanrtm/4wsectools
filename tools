@@ -69,7 +69,8 @@ echo -e $yellow" 14) Ngrok"
 echo -e $yellow" 15) Torshammer "
 echo -e $yellow" 16) RouterSploit "
 echo -e $yellow" 17) Hydra "
-echo -e $red" 18) Exit "
+echo -e $yellow" 18) Weevely
+echo -e $red" 19) Exit "
 echo -e $white""
 read -p "[4WSec@Tools]> " act;
 
@@ -327,7 +328,19 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $act = 18 ] || [ $act = 18  ]
+if [ $act = 18 ] || [ $act = 18]
+then
+clear
+echo -e $red" Installing Weevely "
+sleep 1
+pkg update
+pkg upgrade
+git clone https://github.com/glides/Weevely
+cd ~/
+echo -e $red" T E R I N S T A L L "
+fi
+
+if [ $act = 19 ] || [ $act = 19  ]
 then
 echo " Aku Sange "
 sleep 1
