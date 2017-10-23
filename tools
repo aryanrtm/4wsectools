@@ -70,7 +70,9 @@ echo -e $yellow" 15) Torshammer "
 echo -e $yellow" 16) RouterSploit "
 echo -e $yellow" 17) Hydra "
 echo -e $yellow" 18) Weevely
-echo -e $red" 19) Exit "
+echo -e $yellow" 19) SQLMap
+echo -e $yellow" 20) Dirbuster
+echo -e $red" 21) Exit "
 echo -e $white""
 read -p "[4WSec@Tools]> " act;
 
@@ -340,7 +342,31 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $act = 19 ] || [ $act = 19  ]
+if [ $act = 19 ] || [ $act = 19 ]
+then
+clear
+echo -e $red" Installing SQLMap "
+sleep 1
+apt update && apt upgrade
+apt install python2
+git clone https://github.com/sqlmapproject/sqlmap.git
+cd ~/
+echo -e $red" T E R I N S T A L L "
+fi
+
+if [ $act = 20 ] || [ $act = 20 ]
+then
+clear
+echo -e $red" Installing Dirbuster "
+sleep 1
+apt-get update
+apt-get install python
+apt-get install git
+git clone https://github.com/maurosoria/dirsearch.git
+cd ~/
+echo -e $red" T E R I N S T A L L "
+
+if [ $act = 21 ] || [ $act = 21  ]
 then
 echo " Aku Sange "
 sleep 1
