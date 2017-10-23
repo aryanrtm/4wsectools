@@ -4,6 +4,7 @@
 # Coded By 4WSec
 # 4WSec@cyberservices.com
 # 666
+
 # Bersihkan Layar
 clear
 
@@ -16,23 +17,6 @@ lightgreen='\e[1;32m'
 white='\e[1;37m'
 red='\e[1;31m'
 yellow='\e[1;33m'
-
-###################################################
-# CTRL + C
-###################################################
-trap ctrl_c INT
-ctrl_c() {
-clear
-echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ..."
-sleep 1
-echo ""
-echo -e $yellow"[#]> Thank You For Using My Tools ..."
-sleep 1
-echo ""
-echo -e $white"[#]> 4WSec Wuzz Here ..."
-read enter
-exit
-}
 
 # Isi oc :*
 echo -e $cyan"    __ ___       _______              ______            __ "
