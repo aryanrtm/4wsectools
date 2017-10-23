@@ -69,9 +69,9 @@ echo -e $yellow" 14) Ngrok"
 echo -e $yellow" 15) Torshammer "
 echo -e $yellow" 16) RouterSploit "
 echo -e $yellow" 17) Hydra "
-echo -e $yellow" 18) Weevely
-echo -e $yellow" 19) SQLMap
-echo -e $yellow" 20) Dirbuster
+echo -e $yellow" 18) Weevely "
+echo -e $yellow" 19) SQLMap "
+echo -e $yellow" 20) Dirbuster "
 echo -e $red" 21) Exit "
 echo -e $white""
 read -p "[4WSec@Tools]> " act;
