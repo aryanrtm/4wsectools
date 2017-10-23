@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+
 # Auto Install Tools <3
 # Coded By 4WSec
 # 4WSec@cyberservices.com
@@ -8,6 +9,7 @@ clear
 
 #This colour
 blue='\e[0;34'
+cyan='\e[0;36m'
 green='\e[0;34m'
 okegreen='\033[92m'
 lightgreen='\e[1;32m'
@@ -15,20 +17,43 @@ white='\e[1;37m'
 red='\e[1;31m'
 yellow='\e[1;33m'
 
-# Isi oc :*
-echo -e $green"    __ ___       _______              ______            __ "
-echo -e $red"   / // / |     / / ___/___  _____   /_  __/___  ____  / /____ "
-echo -e $blue"    / // /| | /| / /\__ \/ _ \/ ___/    / / / __ \/ __ \/ / ___/ "
-echo -e $green" /__  __/ |/ |/ /___/ /  __/ /__     / / / /_/ / /_/ / (__  ) "
-echo -e $red"   /_/  |__/|__//____/\___/\___/    /_/  \____/\____/_/____/ "
+###################################################
+# CTRL + C
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo -e $red"[#]> (Ctrl + C ) Detected, Trying To Exit ..."
+sleep 1
 echo ""
-echo -e $blue"   Toolkit Untuk Menginstall Tools "
-echo -e $green" Follow me on github : @aryanrtm "
-echo -e $red" My Site             : https://4wsec.viagra100mg.gen.tr "
-echo -e $blue"   Codename            : 4WSec "
-echo -e $blue"   V3rluchie Tools Recoded By 4WSec "
+echo -e $yellow"[#]> Thank You For Using My Tools ..."
+sleep 1
+echo ""
+echo -e $white"[#]> 4WSec Wuzz Here ..."
+read enter
+exit
+}
+
+# Isi oc :*
+echo -e $cyan"    __ ___       _______              ______            __ "
+echo -e $green"   / // / |     / / ___/___  _____   /_  __/___  ____  / /____ "
+echo -e $white"  / // /| | /| / /\__ \/ _ \/ ___/    / / / __ \/ __ \/ / ___/ "
+echo -e $red" /__  __/ |/ |/ /___/ /  __/ /__     / / / /_/ / /_/ / (__  ) "
+echo -e $cyan"   /_/  |__/|__//____/\___/\___/    /_/  \____/\____/_/____/ "
+echo
+echo -e $white"         ***********************************************"
+echo -e $white"         #                                             #"
+echo -e $white"         # $cyan  Toolkit For$red Lazy People$white                   #"
+echo -e $white"         # $cyan  V3rluchie Tools Recoded by$red 4WSec$white          #"
+echo -e $white"         # $cyan  Follow Me On Github:$red @aryanrtm$white            #"
+echo -e $white"         # $cyan  My Site:$red https://4wsec.viagra100mg.gen.tr$white #"
+echo -e $white"         # $cyan  Contact Me In:$red 4wsec@cyberservices.com$white    #"
+echo -e $white"         # $cyan  Changelog: $red 23-10-2017   $white                 #"
+echo -e $white"         #                                             #"
+echo -e $white"         ***********************************************"
+echo
 echo -e $yellow" 01) Red Hawk"
-echo -e $yellow" 02) D-Tech"
+echo -e $yellow" 02) D-Tect"
 echo -e $yellow" 03) Hunner"
 echo -e $yellow" 04) WPScan"
 echo -e $yellow" 05) Webdav"
@@ -44,14 +69,14 @@ echo -e $yellow" 14) Ngrok"
 echo -e $yellow" 15) Torshammer "
 echo -e $yellow" 16) RouterSploit "
 echo -e $yellow" 17) Hydra "
-echo -e $red" 18) Keluar bego :3 "
-echo ""
+echo -e $red" 18) Exit "
+echo -e $white""
 read -p "[4WSec@Tools]> " act;
 
 if [ $act = 1 ] || [ $act = 01 ]
 then
 clear
-echo " Installing Red Hawk "
+echo -e $red" Installing Red Hawk "
 sleep 1
 apt update && apt upgrade
 apt install php
@@ -63,7 +88,7 @@ fi
 if [ $act = 2 ] || [ $act = 02 ]
 then
 clear
-echo " Installing D-Tect "
+echo -e $red" Installing D-Tect "
 sleep 1
 apt-get update && apt-get upgrade
 apt-get install git
@@ -75,7 +100,7 @@ fi
 if [ $act = 3 ] || [ $act = 03 ]
 then
 clear
-echo " Installing Hunner "
+echo -e $red" Installing Hunner "
 sleep 1
 apt-get update && apt-get upgrade
 apt install python
@@ -87,7 +112,7 @@ fi
 if [ $act = 4 ] || [ $act = 04 ]
 then
 clear
-echo " Installing Wpscan "
+echo -e $red" Installing Wpscan "
 sleep 1
 apt-get update && apt-get upgrade
 apt install ruby
@@ -106,7 +131,7 @@ fi
 if [ $act = 5 ] || [ $act = 05 ]
 then
 clear
-echo " Installing Webdav "
+echo -e $red" Installing Webdav "
 sleep 1
 apt update && apt upgrade
 apt install python2
@@ -124,7 +149,7 @@ fi
 if [ $act = 06 ] || [ $act = 6 ]
 then
 clear
-echo " Installing Metasploit "
+echo -e $red" Installing Metasploit "
 sleep 1
 apt update && apt upgrade
 apt install git
@@ -132,12 +157,14 @@ apt install wget
 wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
 chmod 777 install.sh
 sh install.sh
-echo " T E R I N S T A L L "
+echo -e $red" T E R I N S T A L L "
 fi
 
 if [ $act = 07 ] || [ $act = 7 ]
 then
 clear
+echo -e $red" Installing Kali Nethunter "
+sleep 1
 apt update && apt upgrade
 apt install git
 git clone https://github.com/Hax4us/Nethunter-In-Termux.git
@@ -150,6 +177,8 @@ fi
 if [ $act = 08 ] || [ $act = 8 ]
 then
 clear
+echo -e $red" Installing Ubuntu "
+sleep 1
 apt update && apt upgrade
 apt install git
 apt install wget
@@ -167,6 +196,8 @@ fi
 if [ $act = 09 ] || [ $act = 9 ]
 then
 clear
+echo -e $red" Installing Youtube DL "
+sleep 1
 apt update && apt upgrade
 apt install python
 pip3 install mps_youtube
@@ -179,6 +210,8 @@ fi
 if [ $act = 10 ] || [ $act = 10 ]
 then
 clear
+echo -e $red" Installing viSQL "
+sleep 1
 apt update && apt upgrade
 pkg install git
 pkg install python2
@@ -192,6 +225,8 @@ fi
 if [ $act = 11 ] || [ $act = 11 ]
 then
 clear
+echo -e $red" Installing Weeman "
+sleep 1
 apt update && apt upgrade
 pkg install git
 apt install python2
@@ -206,6 +241,8 @@ fi
 if [ $act = 12 ] || [ $act = 12 ]
 then
 clear
+echo -e $red" Installing WFDroid "
+sleep 1
 apt update && apt upgrade
 apt install wget
 mkdir wfdroid
@@ -220,6 +257,8 @@ fi
 if [ $act = 13 ] || [ $act = 13 ]
 then
 clear
+sleep 1
+echo -e $red" Installing FBBrute "
 apt install python2
 apt install python2-dev
 apt install wget
@@ -235,6 +274,8 @@ fi
 if [ $act = 14 ] || [ $act = 14 ]
 then
 clear
+echo -e $red" Installing Ngrok "
+sleep 1
 apt install wget
 mkdir ngrok
 cd ~/ngrok
@@ -247,6 +288,8 @@ fi
 if [ $act = 15 ] || [ $act = 15 ]
 then
 clear
+echo -e $red" Installing Hammer "
+sleep 1
 pkg update
 pkg upgrade
 pkg install python
@@ -259,6 +302,8 @@ fi
 if [ $act = 16 ] || [ $act = 16 ]
 then
 clear
+echo -e $red" Installing Routersploit "
+sleep 1
 apt install git
 apt install python2
 pip2 install requests
@@ -273,6 +318,8 @@ fi
 if [ $act = 17 ] || [ $act = 17 ]
 then
 clear
+echo -e $red" Installing Hydra "
+sleep 1
 apt update && apt install -y wget
 apt install hydra
 wget http://scrapmaker.com/download/data/wordlists/dictionaries/rockyou.txt
@@ -284,13 +331,15 @@ if [ $act = 18 ] || [ $act = 18  ]
 then
 echo " Aku Sange "
 sleep 1
-echo " mmmpppssss"
+echo " mmmpppssss "
 sleep 1
-echo " aaahhh"
+echo " aaahhh "
 sleep 1
-echo " mmmpppsss"
+echo " mmmpppsss "
 sleep 1
-echo " Bye Sayang :*"
+echo " aaahhh "
+sleep 1
+echo " Bye Sayang :* "
 sleep 1
 exit
 fi
