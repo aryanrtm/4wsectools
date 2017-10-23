@@ -24,7 +24,7 @@ echo -e $green"   / // / |     / / ___/___  _____   /_  __/___  ____  / /____ "
 echo -e $white"  / // /| | /| / /\__ \/ _ \/ ___/    / / / __ \/ __ \/ / ___/ "
 echo -e $red" /__  __/ |/ |/ /___/ /  __/ /__     / / / /_/ / /_/ / (__  ) "
 echo -e $cyan"   /_/  |__/|__//____/\___/\___/    /_/  \____/\____/_/____/ "
-echo
+echo ""
 echo -e $white"         ***********************************************"
 echo -e $white"         #                                             #"
 echo -e $white"         # $cyan  Toolkit For$red Lazy People$white                   #"
@@ -35,7 +35,7 @@ echo -e $white"         # $cyan  Contact Me In:$red 4wsec@cyberservices.com$whit
 echo -e $white"         # $cyan  Changelog: $red 23-10-2017   $white                 #"
 echo -e $white"         #                                             #"
 echo -e $white"         ***********************************************"
-echo
+echo ""
 echo -e $yellow" 01) Red Hawk"
 echo -e $yellow" 02) D-Tect"
 echo -e $yellow" 03) Hunner"
