@@ -366,6 +366,7 @@ apt-get install git
 git clone https://github.com/maurosoria/dirsearch.git
 cd ~/
 echo -e $red" T E R I N S T A L L "
+fi
 
 if [ $act = 21 ] || [ $act = 21  ]
 then
