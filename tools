@@ -331,7 +331,7 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $act = 18 ] || [ $act = 18]
+if [ $act = 18 ] || [ $act = 18 ]
 then
 clear
 echo -e $red" Installing Weevely "
