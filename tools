@@ -74,7 +74,8 @@ echo -e $yellow" 17) Hydra "
 echo -e $yellow" 18) Weevely "
 echo -e $yellow" 19) SQLMap "
 echo -e $yellow" 20) Dirbuster "
-echo -e $red" 21) Exit "
+echo -e $yellow" 21) Pybelt "
+echo -e $red" 22) Exit "
 echo -e $white""
 read -p "[4WSec@Tools]> " act;
 
@@ -369,7 +370,18 @@ cd ~/
 echo -e $red" T E R I N S T A L L "
 fi
 
-if [ $act = 21 ] || [ $act = 21  ]
+if [ $act = 21 ] || [ $act = 21 ]
+then
+clear
+echo -e $red" Installing Pybelt "
+sleep 1
+git clone https://github.com/ekultek/pybelt.git
+pip install –r requirements.txt
+cd ~/
+echo -e $red" T E R I N S T A L L "
+fi
+
+if [ $act = 22 ] || [ $act = 22  ]
 then
 echo " Aku Sange "
 sleep 1
